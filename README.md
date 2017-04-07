@@ -1,7 +1,7 @@
 Docker PHPUnit commands
 =======================
 
-Originally forked from https://github.com/m0nah/SimplePHPUnit-for-Sublime-Text
+Originally forked from https://github.com/paza/RemotePHPUnit-for-Sublime-Text
 
 
 This plugin allows you the run the PHPUnit on a remote server tests using the Sublime Text interface, without having to open and use the command line.
@@ -24,14 +24,14 @@ Use Package Controller or create a the directory `DockerPHPUnit` in your Sublime
 
 The server_address configuration is mandatory.
 
-An example for a Symfony2 Vagrant setup looks as follows:
+Laravel 5.4 Test Example:
 
-```
+```json
 {
 	"phpunit_path": "/var/www/html/vendor/bin/phpunit", /*phpunit file mounted on remote server*/
-    "phpunit_xml_remote_path": "/var/www/html/phpunit.xml",
-    "docker_container": "workspace",
-    "phpunit_xml_local_path": ""
+	"phpunit_xml_remote_path": "/var/www/html/phpunit.xml",
+	"docker_container": "workspace",
+	"phpunit_xml_local_path": ""
 }
 ```
 * phpunit_path: Path inside docker container

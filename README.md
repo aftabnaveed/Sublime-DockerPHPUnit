@@ -13,9 +13,9 @@ This plugin allows you the run the PHPUnit on a remote server tests using the Su
 - `Docker PHPUnit: Run functional tests`
 - `Docker PHPUnit: Run tests in current file`
 
-### Coloring output
+### Colouring output
 
-![Coloring output](https://raw.github.com/m0nah/SimplePHPUnit-for-Sublime-Text/master/Screen%20Shot.png)
+![Colouring output](https://raw.githubusercontent.com/aftabnaveed/Sublime-DockerPHPUnit/master/Tests.png)
 
 ### Installation:
 Use Package Controller or create a the directory `DockerPHPUnit` in your Sublime Text Packages directory, and you're ready to go.

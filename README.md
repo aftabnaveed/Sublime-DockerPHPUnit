@@ -24,9 +24,9 @@ Just git clone this repo in your ~/.config/sublime-text-3/Packages/
 *OSX:*
 Just git clone this repo in your  ~/Library/Application Support/Sublime Text 3/Packages
 
-### Configuration:
+You may need to restart your IDE for your settings to take effect.
 
-The server_address configuration is mandatory.
+### Configuration:
 
 Laravel 5.4 Test Example:
 

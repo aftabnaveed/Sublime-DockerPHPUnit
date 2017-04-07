@@ -28,7 +28,7 @@ Laravel 5.4 Test Example:
 
 ```json
 {
-	"phpunit_path": "/var/www/html/vendor/bin/phpunit", /*phpunit file mounted on remote server*/
+	"phpunit_path": "/var/www/html/vendor/bin/phpunit", 
 	"phpunit_xml_remote_path": "/var/www/html/phpunit.xml",
 	"docker_container": "workspace",
 	"phpunit_xml_local_path": ""
